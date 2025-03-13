@@ -30,17 +30,17 @@ h2,h4{
     text-align: center;
 }
 .a{
-    background-image: url(images/Копия\ address.png);
+    background-image: url(Копия\ address.png);
     background-repeat: no-repeat;
     padding: 7px 30px;
 }
 .b{
-    background-image: url(images/Копия\ phone.png);
+    background-image: url(Копия\ phone.png);
     background-repeat: no-repeat;
     padding: 5px 30px;
 }
 .c{
-    background-image: url(images/Копия\ mail.png);
+    background-image: url(Копия\ mail.png);
     background-repeat: no-repeat;
     padding: 5px 30px;
 }
@@ -183,7 +183,7 @@ border-radius: 6px;
         width: 88px;
 }
 .intra{
-    background-image: url("images/Копия\ polygons.png");
+    background-image: url("Копия\ polygons.png");
     min-height: 500px;
     background-repeat: no-repeat;
     padding: 200px 10% 0;
