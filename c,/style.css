@@ -1,0 +1,129 @@
+.menu{
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+}
+.menu a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+}
+nav{
+    padding: 10px;
+}
+.menu h3 {
+    margin-top: 0;
+}
+h2{
+    color: rgb(226, 43, 43);
+    font-size: 36px;
+}
+.content{
+    padding-left: 300px;
+}
+
+.gav img{
+    width: 47%;
+    border-radius: 10px;
+    aspect-ratio: 1/0.5;
+}
+.tim {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.we{
+    color: gray;
+}
+.tim h4{
+    margin-top: 0;
+}
+.tim img{
+    border-radius: 10px;
+    width: 100%;
+}
+.tim >div{
+    width: 30%;
+    display: inline-block;
+    padding: 7px;
+}
+.carta1 p{
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    margin: 0;
+    border-radius: 15px;
+    color: red;
+}
+.carta2 p{
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    margin: 0;
+    border-radius: 15px;
+    color: rgb(255, 0, 0);
+}
+.carta3 p{
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    margin: 0;
+    border-radius: 15px;
+    color: rgb(255, 0, 0);
+}
+.carta2{
+    background-color: lightgrey;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border-radius: 15px;
+}
+.carta1{
+    background-color: lightgray;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border-radius: 15px;
+}
+.carta1 span{
+    display: block;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+.carta2 span{
+    display: block;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+.carta3 span{
+    display: block;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    background-color: lightgrey;
+}
+.carta3{
+    background-color: lightgray;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border-radius: 15px;
+}
+.carta4 {
+    width: 32%;
+}
+.info{
+    text-align: end;
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+    margin-top: 30px;
+    
+}
+.info h3{
+    margin: 0;
+    color: red;
+}
