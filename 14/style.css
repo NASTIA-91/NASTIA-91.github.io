@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+.conteyner{
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.intra{
+    background-image: url("innsbruck1.png");
+    min-height: 500px;
+    background-size: cover;
+}
+header .conteyner{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 50px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+h1{
+    color: beige;
+    font-size: 40px;
+}
+.intra .conteyner{
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+h2{
+    color: blue;
+}
+ul{
+    list-style: none;
+}
+li{
+    position: relative;
+}
+li::before{
+    content:'\2713';
+}
+.about a{
+    background-image: url(skier.png);
+    max-width: 200px;
+    background-size: cover;
+    background-position: right;
+}
+.mou{
+    display: flex;
+    justify-content: space-between;
+}
+.about a span{
+    margin-left: 70px;
+    margin-top: 70px;
+    display: block;
+    background-color: lightgrey;
+}
+.about a p{
+    font-size: 18px;
+}
+.temperatira p{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.temperatira img{
+    width: 100%;
+    border: 2px solid lightslategrey;
+    display: block;
+}
+.parot div{
+    background-color: rgb(121, 184, 175);
+    color: aliceblue;
+    width: 34%;
+    text-align: center;
+}
+.parot{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+}
+.parot img{
+    width: 66%;
+}
+.parot h3{
+    margin-top: 100px; 
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.carta iframe{
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    margin:  0 auto;
+}
+th{
+    background-color: rgb(24, 24, 59);
+    color: aliceblue;
+}
+footer{
+    background-color: rgb(163, 225, 253);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+@media (max-width:425px) {
+    .mou{
+        flex-direction: column;
+    }
+}
